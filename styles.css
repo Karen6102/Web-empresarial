@@ -1,0 +1,395 @@
+:root {
+    --negro: #0a0a0a;
+    --morado: #6a0dad;
+    --azul: #1e90ff;
+    --gris: #cccccc;
+    --verde-logo: #00c853;
+    --blanco: #ffffff;
+}
+
+body {
+    background-color: var(--negro);
+    color: var(--gris);
+    padding-top: 2rem;
+
+}
+
+.navbar {
+    background-color: var(--morado);
+    padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+    color: var(--blanco) !important;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+    color: var(--gris) !important;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--azul) !important;
+}
+
+h1 {
+    color: var(--azul);
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5rem;
+}
+
+.btn-outline-success {
+    border-color: var(--azul);
+    color: var(--azul);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--azul);
+    color: white;
+}
+
+.imagen-derecha {
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(106, 13, 173, 0.4);
+    /* sombra morada */
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.imagen-derecha:hover {
+    transform: scale(1.02);
+}
+
+.tarjeta-morada {
+    background-color: #4b1a6e;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-azul {
+    background-color: #1d5286;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-verde {
+    background-color: #1d7743;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.hero-experiencia {
+    background-image: url('https://th.bing.com/th/id/R.1038b3f68728ac05747e6fa37084b0a3?rik=kBA4TqJ%2fW450rQ&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 60px 0;
+}
+
+.hero-experiencia .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(75, 73, 73, 0.5);
+    z-index: 1;
+}
+
+.hero-experiencia h2 {
+    color: #6a0dad;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5rem;
+}
+
+
+.hero-top p {
+    color: #fbffff;
+    font-size: 1.2rem;
+}
+
+
+.valores-bloques {
+    background-color: transparent;
+    padding: 1rem 0;
+}
+
+.valores-bloques h4.text-info {
+    color: #1e90ff;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5rem;
+}
+
+.valores-bloques h4.text-success {
+    color: #00c853;
+    font-weight: bold;
+}
+
+.valores-bloques ul li {
+    margin-bottom: 0.75rem;
+}
+
+.tarjeta-transparente {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.testimonios-clientes {
+    background-color: #1f1e1e;
+}
+
+.testimonios-clientes h2 {
+    color: #6a0dad;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5rem;
+}
+
+.testimonios-clientes p.lead {
+    color: #cccccc;
+    font-size: 1.1rem;
+}
+
+.tarjeta-testimonio {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.tarjeta-testimonio h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: #dddddd
+}
+
+
+.tarjeta-testimonio .card-text {
+    font-size: 0.95rem;
+    color: #dddddd;
+    text-align: center;
+}
+
+.estrellas {
+    color: gold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.tarjeta-testimonio h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+
+.tarjeta-testimonio .card-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #cccccc;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+.seccion-contacto {
+    background-color: #0a0a0a;
+}
+
+.seccion-contacto h2 {
+    color: #6a0dad;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.formulario-contacto .form-control {
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+.formulario-contacto .form-control::placeholder {
+    color: #999999;
+}
+
+.formulario-contacto .form-label {
+    font-weight: 500;
+}
+
+.btn-success {
+    border-color: #4b1a6e;
+    color: #1e90ff;
+}
+
+.btn-success:hover {
+    background-color: #4b1a6e;
+}
+
+.btn-outline-success {
+    border-color: #4b1a6e;
+    color: #1e90ff;
+}
+
+.btn-outline-success:hover {
+    background-color: #4b1a6e;
+    color: #ffffff;
+}
+
+.footer-principal {
+    background-color: #1f1e1e;
+    border-top: 1px solid #333;
+}
+
+.footer-principal p {
+    font-size: 0.95rem;
+    color: #cccccc;
+    margin-bottom: 0.5rem;
+}
+
+/* From Uiverse.io by zjssun */
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e90ff;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+#btn:hover,
+:focus {
+    color: #ffffff;
+    background: #4b1a6e;
+    border: 1px solid #4b1a6e;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #4b1a6e, 0 0 20px #4b1a6e, 0 0 50px #4b1a6e,
+        0 0 100px #4b1a6e;
+}
+
+.hero-galeria {
+    background-image: url('https://th.bing.com/th/id/R.ee23a1ad26ab126827575443062a981e?rik=%2bv96hG97Z8mefQ&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-galeria .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-galeria .container {
+    z-index: 2;
+}
+
+.hero-galeria h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+
+
+.hero-galeria .btn-success {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e90ff;
+    text-shadow: none;
+    background: #4b1a6e;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+.hero-galeria .btn-success:hover,
+:focus {
+    color: #ffffff;
+    background: #4b1a6e;
+    border: 1px solid #4b1a6e;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #4b1a6e, 0 0 20px #4b1a6e, 0 0 50px #4b1a6e,
+        0 0 100px #4b1a6e;
+}
+
+.seccion-contacto .btn-success{
+        padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1e90ff;
+    text-shadow: none;
+    background: #4b1a6e;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+.seccion-contacto .btn-success,
+:focus {
+    color: #ffffff;
+    background: #4b1a6e;
+    border: 1px solid #4b1a6e;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #4b1a6e, 0 0 20px #4b1a6e, 0 0 50px #4b1a6e,
+        0 0 100px #4b1a6e;
+}
